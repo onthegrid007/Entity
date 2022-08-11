@@ -1,0 +1,6 @@
+[submodule "vendor/SI"]
+	path = vendor/SI
+	url = https://github.com/bernedom/SI.git
+[submodule "vendor/glm"]
+	path = vendor/glm
+	url = https://github.com/g-truc/glm.git
