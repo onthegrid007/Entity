@@ -1,7 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include "vendor/UUID/UUID.h"
+#include "vendor/CPPLOG/vendor/LifetimeEvent/vendor/UUID/UUID.h"
 #include "vendor/SI/include/SI/mass.h"
 #include "vendor/SI/include/SI/velocity.h"
 #include "vendor/glm/glm/glm.hpp"
