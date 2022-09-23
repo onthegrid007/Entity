@@ -14,13 +14,15 @@ using namespace SI::literals;
 
 class Entity {
     public:
+    typedef kilo_gram_t<long double> MassType;
+    typedef metre_per_second_t<long double> VelocityType;
     Entity();
 
     private:
     dvec3 m_position = {0, 0, 0};
     dvec3 m_rotation = {0, 0, 0};
-    kilo_gram_t<long double> m_mass = 1.0_kg;
-    metre_per_second_t<long double> m_velocity = 0.0_m_p_s;
+    MassType m_mass = 1.0_kg;
+    VelocityType m_velocity = 0.0_m_p_s;
     // bool m_physicsAffected = true;
     
     protected:
