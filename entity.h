@@ -1,6 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
+#include "../vendor/CPPLOG/vendor/Profiler/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/ThreadPool/threadpool.h"
 #include "vendor/CPPLOG/vendor/LifetimeEvent/vendor/UUID/UUID.h"
 #include "vendor/SI/include/SI/astronomic.h"
 #include "vendor/SI/include/SI/velocity.h"
