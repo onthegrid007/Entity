@@ -7,3 +7,6 @@
 [submodule "vendor/CPPLOG"]
 	path = vendor/CPPLOG
 	url = https://github.com/onthegrid007/CPPLOG
+[submodule "vendor/NCubedTree"]
+	path = vendor/NCubedTree
+	url = https://github.com/onthegrid007/NCubedTree

@@ -1,14 +1,15 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include "../vendor/CPPLOG/vendor/Profiler/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/threadpool.h"
-#include "vendor/CPPLOG/vendor/LifetimeEvent/vendor/UUID/UUID.h"
-#include "vendor/SI/include/SI/astronomic.h"
-#include "vendor/SI/include/SI/velocity.h"
-#include "vendor/glm/glm/glm.hpp"
-#include "vendor/glm/glm/mat4x4.hpp"
-#include "vendor/glm/glm/gtx/transform.hpp"
-#include "vendor/glm/glm/gtc/type_ptr.hpp"
+#include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/threadpool.h"
+#include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/vendor/ADVClock/vendor/Timestamp/vendor/SI/include/SI/astronomic.h"
+#include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/vendor/ADVClock/vendor/Timestamp/vendor/SI/include/SI/velocity.h"
+#include "vendor/NCubedTree/vendor/glm/glm/glm.hpp"
+#include "vendor/NCubedTree/vendor/glm/glm/mat4x4.hpp"
+#include "vendor/NCubedTree/vendor/glm/glm/gtx/transform.hpp"
+#include "vendor/NCubedTree/vendor/glm/glm/gtc/type_ptr.hpp"
+#include "vendor/CPPLOG/vendor/LifetimeEvent/vendor/UUID/UUID.hpp"
+
 using namespace glm;
 using namespace SI;
 using namespace SI::literals;
