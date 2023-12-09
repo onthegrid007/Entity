@@ -1,7 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/threadpool.h"
+#include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/threadpool.hpp"
 #include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/vendor/ADVClock/vendor/Timestamp/vendor/SI/include/SI/astronomic.h"
 #include "vendor/CPPLOG/vendor/Profiler/vendor/FPNBits/vendor/DynamicDLL/vendor/FileUtilities/vendor/STDExtras/vendor/ThreadPool/vendor/ADVClock/vendor/Timestamp/vendor/SI/include/SI/velocity.h"
 #include "vendor/NCubedTree/vendor/glm/glm/glm.hpp"
@@ -19,7 +19,7 @@ class Entity {
     typedef kilo_gram_t<long double> MassType;
     typedef metre_per_second_t<long double> VelocityType;
     Entity();
-
+    
     private:
     dvec3 m_position = {0, 0, 0};
     dvec3 m_rotation = {0, 0, 0};
